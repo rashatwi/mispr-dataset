@@ -1,6 +1,6 @@
 
 ## shifts.csv
-Contains the <sup>13</sup>C and <sup>1</sup>H NMR chemical shifts (ppm) of the molecules in the NMR dataset at the ωB97X/def2-TZVP leve 
+Contains the <sup>13</sup>C and <sup>1</sup>H NMR chemical shifts (ppm) of the molecules in the NMR dataset at the ωB97X/def2-TZVP level 
 of theory in a chlorofom solvent using the PCM solvation model and referenced to tetramethyl silane (TMS).
 The column names correspond to the following:
 1. **num**: structure number 
