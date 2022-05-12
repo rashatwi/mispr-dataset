@@ -1,0 +1,412 @@
+{
+    "molecule":
+    {
+        "@module": "pymatgen.core.structure",
+        "@class": "Molecule",
+        "charge": 0,
+        "spin_multiplicity": 1,
+        "sites":
+        [
+            {
+                "name": "O",
+                "species":
+                [
+                    {
+                        "element": "O",
+                        "occu": 1
+                    }
+                ],
+                "xyz":
+                [
+                    0.129717,
+                    -0.874111,
+                    0.530612
+                ],
+                "properties":
+                {}
+            },
+            {
+                "name": "O",
+                "species":
+                [
+                    {
+                        "element": "O",
+                        "occu": 1
+                    }
+                ],
+                "xyz":
+                [
+                    0.768217,
+                    1.0781,
+                    -0.325513
+                ],
+                "properties":
+                {}
+            },
+            {
+                "name": "O",
+                "species":
+                [
+                    {
+                        "element": "O",
+                        "occu": 1
+                    }
+                ],
+                "xyz":
+                [
+                    2.244509,
+                    -0.624883,
+                    -0.217286
+                ],
+                "properties":
+                {}
+            },
+            {
+                "name": "C",
+                "species":
+                [
+                    {
+                        "element": "C",
+                        "occu": 1
+                    }
+                ],
+                "xyz":
+                [
+                    -1.083922,
+                    -0.094544,
+                    0.489848
+                ],
+                "properties":
+                {}
+            },
+            {
+                "name": "C",
+                "species":
+                [
+                    {
+                        "element": "C",
+                        "occu": 1
+                    }
+                ],
+                "xyz":
+                [
+                    -0.556738,
+                    1.31292,
+                    0.162457
+                ],
+                "properties":
+                {}
+            },
+            {
+                "name": "C",
+                "species":
+                [
+                    {
+                        "element": "C",
+                        "occu": 1
+                    }
+                ],
+                "xyz":
+                [
+                    -2.040294,
+                    -0.66956,
+                    -0.536247
+                ],
+                "properties":
+                {}
+            },
+            {
+                "name": "C",
+                "species":
+                [
+                    {
+                        "element": "C",
+                        "occu": 1
+                    }
+                ],
+                "xyz":
+                [
+                    1.157923,
+                    -0.186754,
+                    -0.02249
+                ],
+                "properties":
+                {}
+            },
+            {
+                "name": "H",
+                "species":
+                [
+                    {
+                        "element": "H",
+                        "occu": 1
+                    }
+                ],
+                "xyz":
+                [
+                    -1.51947,
+                    -0.136916,
+                    1.488161
+                ],
+                "properties":
+                {}
+            },
+            {
+                "name": "H",
+                "species":
+                [
+                    {
+                        "element": "H",
+                        "occu": 1
+                    }
+                ],
+                "xyz":
+                [
+                    -1.130638,
+                    1.811913,
+                    -0.617202
+                ],
+                "properties":
+                {}
+            },
+            {
+                "name": "H",
+                "species":
+                [
+                    {
+                        "element": "H",
+                        "occu": 1
+                    }
+                ],
+                "xyz":
+                [
+                    -0.498835,
+                    1.95693,
+                    1.041539
+                ],
+                "properties":
+                {}
+            },
+            {
+                "name": "H",
+                "species":
+                [
+                    {
+                        "element": "H",
+                        "occu": 1
+                    }
+                ],
+                "xyz":
+                [
+                    -2.261914,
+                    -1.712116,
+                    -0.308269
+                ],
+                "properties":
+                {}
+            },
+            {
+                "name": "H",
+                "species":
+                [
+                    {
+                        "element": "H",
+                        "occu": 1
+                    }
+                ],
+                "xyz":
+                [
+                    -2.977475,
+                    -0.108583,
+                    -0.528607
+                ],
+                "properties":
+                {}
+            },
+            {
+                "name": "H",
+                "species":
+                [
+                    {
+                        "element": "H",
+                        "occu": 1
+                    }
+                ],
+                "xyz":
+                [
+                    -1.613017,
+                    -0.616453,
+                    -1.539533
+                ],
+                "properties":
+                {}
+            }
+        ]
+    },
+    "smiles": "O1[C@@H](COC1=O)C",
+    "inchi": "InChI=1S/C4H6O3/c1-3-2-6-4(5)7-3/h3H,2H2,1H3/t3-/m1/s1",
+    "formula_alphabetical": "C4 H6 O3",
+    "chemsys": "C-H-O",
+    "num_electrons": 1,
+    "functional": "B3LYP",
+    "basis": "Def2TZVP",
+    "phase":
+    [
+        "gas",
+        "solution"
+    ],
+    "steps": "single",
+    "vertical": false,
+    "gibbs_elec": 0.0,
+    "gibbs_h": -11.378719024,
+    "gibbs":
+    {
+        "oxidation":
+        {
+            "gas":
+            {
+                "0e_-1e": 10.271713611270847
+            },
+            "solution":
+            {
+                "0e_-1e": 8.144270358211694
+            }
+        },
+        "reduction":
+        {
+            "gas":
+            {
+                "0e_1e": 1.048983415274819
+            },
+            "solution":
+            {
+                "0e_1e": -0.9533608413547606
+            }
+        }
+    },
+    "potentials":
+    {
+        "oxidation":
+        {
+            "gas":
+            {
+                "0e_-1e":
+                {
+                    "raw": 10.170400385492275,
+                    "hydrogen": 5.740400385492276,
+                    "magnesium": 7.795400385492275,
+                    "lithium": 8.770400385492275
+                }
+            },
+            "solution":
+            {
+                "0e_-1e":
+                {
+                    "raw": 8.063940791711918,
+                    "hydrogen": 3.633940791711918,
+                    "magnesium": 5.688940791711918,
+                    "lithium": 6.6639407917119176
+                }
+            }
+        },
+        "reduction":
+        {
+            "gas":
+            {
+                "0e_1e":
+                {
+                    "raw": -1.0386369533686866,
+                    "hydrogen": -5.468636953368686,
+                    "magnesium": -3.4136369533686866,
+                    "lithium": -2.4386369533686865
+                }
+            },
+            "solution":
+            {
+                "0e_1e":
+                {
+                    "raw": 0.9439575357502663,
+                    "hydrogen": -3.486042464249733,
+                    "magnesium": -1.4310424642497337,
+                    "lithium": -0.4560424642497336
+                }
+            }
+        }
+    },
+    "standard_potentials":
+    {
+        "hydrogen":
+        {
+            "potential": 4.43,
+            "ref":
+            {
+                "publisher": "ACS Publications",
+                "year": "1985",
+                "pages": "4207--4213",
+                "number": "20",
+                "volume": "89",
+                "journal": "The Journal of Physical Chemistry",
+                "author": "Reiss, Howard and Heller, Adam",
+                "title": "The absolute potential of the standard hydrogen electrode: a new estimate",
+                "ENTRYTYPE": "article",
+                "ID": "reiss1985absolute"
+            }
+        },
+        "magnesium":
+        {
+            "potential": 2.375,
+            "ref":
+            {
+                "publisher": "Royal Society of Chemistry",
+                "year": "1945",
+                "pages": "478--479",
+                "journal": "Journal of the Chemical Society (Resumed)",
+                "author": "Coates, GE",
+                "title": "124. The standard electrode potential of magnesium",
+                "ENTRYTYPE": "article",
+                "ID": "coates1945124"
+            }
+        },
+        "lithium":
+        {
+            "potential": 1.4,
+            "ref":
+            {
+                "publisher": "Springer",
+                "year": "2013",
+                "pages": "195--237",
+                "booktitle": "Batteries for Sustainability",
+                "author": "Smith, Grant D and Borodin, Oleg",
+                "title": "Lithium battery electrolyte stability and performance from molecular modeling and simulations",
+                "ENTRYTYPE": "incollection",
+                "ID": "smith2013lithium"
+            }
+        }
+    },
+    "tag": "htp-paper",
+    "state": "successful",
+    "wall_time (s)": 2846.2763718971983,
+    "version": "0.0.1",
+    "gauss_version": "ES64L-G16RevC.01",
+    "last_updated": "2021-05-14T11:54:13.989055",
+    "solvent": "acetone",
+    "solvent_model": "smd",
+    "solvent_properties": null,
+    "num": "27",
+    "_id": null,
+    "run_locs":
+    [
+        "/gpfs/scratch/ratwi/htp-paper/ip-ea/27/gas/0e/Optimization/run.json",
+        "/gpfs/scratch/ratwi/htp-paper/ip-ea/27/gas/0e/Frequency/run.json",
+        "/gpfs/scratch/ratwi/htp-paper/ip-ea/27/solution/0e/Optimization/run.json",
+        "/gpfs/scratch/ratwi/htp-paper/ip-ea/27/solution/0e/Frequency/run.json",
+        "/gpfs/scratch/ratwi/htp-paper/ip-ea/27/gas/1e/Optimization/run.json",
+        "/gpfs/scratch/ratwi/htp-paper/ip-ea/27/gas/-1e/Optimization/run.json",
+        "/gpfs/scratch/ratwi/htp-paper/ip-ea/27/gas/1e/Frequency/run.json",
+        "/gpfs/scratch/ratwi/htp-paper/ip-ea/27/gas/-1e/Frequency/run.json",
+        "/gpfs/scratch/ratwi/htp-paper/ip-ea/27/solution/-1e/Optimization/run.json",
+        "/gpfs/scratch/ratwi/htp-paper/ip-ea/27/solution/1e/Optimization/run.json",
+        "/gpfs/scratch/ratwi/htp-paper/ip-ea/27/solution/1e/Frequency/run.json",
+        "/gpfs/scratch/ratwi/htp-paper/ip-ea/27/solution/-1e/Frequency/run.json"
+    ]
+}
