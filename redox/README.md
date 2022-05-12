@@ -4,7 +4,6 @@ Contains the ionization potential, electron affinity, and electrochemical window
 of theory in an acetone solvent using the SMD solvation model. Calculations were performed using the thermodynamic cycle.
 
 The column names correspond to the following:
-,mol,chemsys,ip_gas,ip_sol,ea_gas,ea_sol,EW_gas,EW_sol
 
 1. **mol**: structure number 
 2. **chemsys**: molecule chemical system
