@@ -1,7 +1,7 @@
 
 ## redox.csv
 Contains the ionization potential, electron affinity, and electrochemical windows for the first electron transfer at the B3LYP/def2-TZVP level 
-of theory in an acetone solvent using the SMD solvation model. Calculations were performed using the thermodynamic cycle.
+of theory in an acetone solvent using the SMD solvation model. Calculations were performed using the full thermodynamic cycle.
 
 The column names correspond to the following:
 
